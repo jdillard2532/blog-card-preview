@@ -1,0 +1,97 @@
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+  background-color: #f4d04e;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+h1:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.yellow {
+  color: #f4d04e;
+}
+
+.gray950 {
+  color: #111;
+}
+
+.gray500 {
+  color: #6b6b6b;
+}
+
+.white {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  gap: 1rem;
+  border: 1px solid #111;
+  box-shadow: 10px 15px #111;
+}
+
+.card-date {
+  margin-top: 1rem;
+}
+
+#photo {
+  max-width: 2rem;
+}
+
+.content p:first-of-type {
+  background-color: #f4d04e;
+  font-weight: 700;
+  padding: 0.5rem;
+  max-width: 20%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content p:last-of-type {
+  padding-right: 1rem;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.cardFooter p {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  font-weight: 800;
+}
